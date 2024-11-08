@@ -10,9 +10,12 @@
     "download": "node download-assets.cjs"
   },
   "devDependencies": {
-    "vite": "^5.4.10",
     "@ffmpeg/ffmpeg": "^0.12.10",
     "@ffmpeg/util": "^0.12.1",
-    "tar": "^7.4.3"
+    "tar": "^7.4.3",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "vite-plugin-singlefile": "^2.0.3"
   }
 }
